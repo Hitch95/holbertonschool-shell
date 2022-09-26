@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1068 iacta
+tail iacta
