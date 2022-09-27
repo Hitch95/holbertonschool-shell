@@ -1,2 +1,2 @@
 #!/bin/bash
-${string//A/Z} | ${string//c/e}
+tr Ac Ze
