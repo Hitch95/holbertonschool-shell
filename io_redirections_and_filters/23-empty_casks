@@ -1,2 +1,2 @@
 #!/bin/bash
-find . f -empty -print | cut
+find . f -empty -print | cut -d'/'
