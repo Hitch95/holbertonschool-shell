@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 == 0' filename
+perl -pe 'BEGIN{open($e,">even_lines");open($o,">odd_lines")} $. % 2 ?select $o:select $e;'
